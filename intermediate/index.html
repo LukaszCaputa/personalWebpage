@@ -4,65 +4,59 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" ng-app="mainApp"> <!--<![endif]-->
     <head >
-      
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Lukasz Caputa, M.Sc.  - Homepage</title>
-        <meta name="description" content="Lukasz Caputa">
-       
+        <meta name="description" content="Lukasz Caputa Personal Webpage">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href='css/86f25d7.css'>
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
-        
-
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        
-        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-route.js"></script>
-        
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
 
     </head>
+
     <body ng-controller="mainController">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-          <nav class="navbar navbar-default">
-            <div class="container">
-              <div class="navbar-header">
-                <p class="navbar-brand" href="/">M.Sc. Lukasz Caputa - Software Engineer </p>
-              </div>
-
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><i class="fa fa-tachometer"></i> Home</a></li>
-                <li><a href="#about"><i class="fa fa-info-circle"></i> About</a></li>
-                <li><a href="#contact"><i class="fa fa-phone "></i> Contact</a></li>
-              </ul>
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <p class="navbar-brand" href="/">M.Sc. Lukasz Caputa - Software Engineer </p>
             </div>
-          </nav>
 
-          <div id="main">
-          
-            <!-- angular templating -->
-            <!-- this is where content will be injected -->
-            <div ng-view></div>
-            
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><i class="fa fa-tachometer"></i> Home</a></li>
+              <li><a href="#about"><i class="fa fa-info-circle"></i> About</a></li>
+              <li><a href="#contact"><i class="fa fa-phone "></i> Contact</a></li>
+            </ul>
           </div>
-          
-          <footer class="text-center">
-            <p> &copy; Copyrights - Lukasz Caputa 2014</p>
+        </nav>
 
-          </footer>
+
+
+        <div id="main">
+          <div ng-view></div>
+        </div>
+
+
+
+        <footer class="text-center">
+          <p> &copy; Copyrights - Lukasz Caputa 2014</p>
+
+        </footer>
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-route.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
 
     </body>
 </html>
